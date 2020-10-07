@@ -1,0 +1,182 @@
+/********************************* STYLESHEET ********************************/
+/********************************* STYLING FOR GENERAL LAYOUT ********************************/
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ffd57e;
+  font-family: 'Abel', sans-serif;
+  color:#132743;
+}
+label{
+    font-weight:bold;
+}
+h2{
+    font-size: 60px;
+    padding: 20px 40px;
+}
+button{
+  color: white;
+  background: #08c;
+}
+
+.head{
+  font-family: 'Dosis', sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+.subhead{
+  text-align: center;
+  font-size: 50px;
+}
+/********************************* STYLING FOR TIMELINE ********************************/
+.timeline{
+  position: relative;
+  margin: 50px auto;
+  padding: 40px 0;
+  width: 1000px;
+}
+.timeline :before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height:90px;
+    background: #290001;
+}
+.timeline ul{
+    margin: 0;
+    padding: 0;
+}
+.timeline ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+.timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+    background-color: #f4f4f4;
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+    background-color: #f4f4f4;
+}
+.content{
+    padding-bottom: 20px;
+}
+.timeline ul li:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    left: 496px;
+    height: 10px;
+    border-radius: 50%;
+}
+.timeline ul li:nth-child(even):before{
+    content: '';
+    position:absolute;
+    left: 496px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.timeline ul li h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+.timeline ul li p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+/********************************* STYLING FOR PROJECTS PAGE ********************************/
+.proj{
+  position: absolute;
+}
+.projects{
+  display:grid;
+  width:500px;
+  height: 330px;
+  background-color: #f4f4f4;
+  padding-left: 40px;
+  padding-top: 10px;
+  border-radius: 10px;
+  border-width: 1px solid;
+}
+.projects:hover{
+    background-color:#ebd4d4 ;
+}
+.project1{
+  position: absolute;
+  left: 50px;
+  top: 196px;
+}
+.project2{
+  position: absolute;
+  left: 800px;
+  top: 196px;
+}
+.project3{
+  position: absolute;
+  left: 50px;
+  top: 566px;
+}
+.project4{
+  position: absolute;
+  left: 800px;
+  top: 566px;
+}
+.project5{
+  position: absolute;
+  left: 50px;
+  top: 936px;
+}
+.project6{
+  position: absolute;
+  left: 800px;
+  top: 936px;
+}
+/********************************* STYLING FOR ORGANIZATIONS PAGE ********************************/
+.organ{
+  position:relative
+}
+.orgs{
+  display:grid;
+  width:400px;
+  background-color: #f4f4f4;
+  padding-left: 40px;
+  padding-top: 10px;
+  border-radius: 10px;
+  border-width: 1px solid;
+}
+.orgs:hover{
+  background-color: #ebd4d4;
+}
+.org1{
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  height: 250px;
+}
+.org2{
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  height: 250px;
+}
+.org3{
+  position: absolute;
+  top: 470px;
+  left: 150px;
+}
+.org4{
+  position: absolute;
+  top: 470px;
+  left: 800px;
+  height: 490x;
+}
